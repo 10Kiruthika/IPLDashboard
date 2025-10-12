@@ -1,0 +1,18 @@
+.bg_container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  height: 400vh;
+  padding: 40px;
+}
+.banner_img {
+  width: 100%;
+}
+.second_container {
+  width: 100%;
+}
+.unorder_minicont {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,37 @@
+.mini_list_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: #1e293b;
+  border-radius: 20px;
+  padding: 20px;
+  height: 380px;
+  width: 290px;
+  color: white;
+  font-family: 'Bree Serif';
+  font-weight: normal;
+}
+
+.mini_img {
+  height: 120px;
+}
+.team_head {
+  font-size: 25px;
+  text-align: center;
+}
+.team_para {
+  font-size: 20px;
+  text-align: center;
+}
+.win_style{
+  font-size: 25px;
+  text-align: center;
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}
