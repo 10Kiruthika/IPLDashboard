@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
-  height: 400vh;
   padding: 40px;
 }
 .banner_img {
@@ -12,7 +11,26 @@
 .second_container {
   width: 100%;
 }
+.heading_para {
+  font-size: 30px;
+  font-weight: bold;
+}
 .unorder_minicont {
   display: flex;
   flex-wrap: wrap;
+}
+.back_button {
+  background-color: blue;
+  border: none;
+  height: 40px;
+  width: 80px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.chart_title {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
 }

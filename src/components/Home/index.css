@@ -13,16 +13,17 @@
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
 }
 .logo_img {
-  height: 120px;
+  height: 100px;
   padding-right: 20px;
 }
 .heading {
   font-size: 70px;
   font-family: 'Bree Serif';
   color: white;
+  margin: 0px;
 }
 .unorder_list {
   display: flex;

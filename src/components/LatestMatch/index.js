@@ -5,19 +5,16 @@ class LatestMatch extends Component {
   render() {
     const {details} = this.props
     const {
-      id,
       competingTeam,
       competingTeamLogo,
       date,
       firstInnings,
       manoftheMatch,
-      matchStatus,
       result,
       secondInnings,
       umpires,
       venue,
     } = details
-    const competing_team = competingTeam
 
     return (
       <div className="latest_container">
@@ -32,7 +29,7 @@ class LatestMatch extends Component {
           <img
             className="team_img"
             src={competingTeamLogo}
-            alt={`latest match ${competing_team}`}
+            alt={`latest match ${competingTeam}`}
           />
         </div>
 
